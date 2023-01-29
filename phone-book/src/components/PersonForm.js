@@ -1,8 +1,8 @@
 import React from "react";
 
-function PersonForm({handleChangeName, handlePushName, newName, handleChangeNumber, number}) {
+function PersonForm({handleChangeName, handlePushPerson, newName, handleChangeNumber, number}) {
   return (
-    <form onSubmit={handlePushName}>
+    <form onSubmit={handlePushPerson}>
       <div>
         name: <input onChange={handleChangeName} value={newName} />
       </div>
