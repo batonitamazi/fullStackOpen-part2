@@ -5,6 +5,7 @@ import Total from './Total'
 function Course({ courses }) {
   return (
     <div>
+      <h1>Web development Curriculum</h1>
       {courses.map(course =>
         <div key={course.id}>
           <Header title={course.name} />
